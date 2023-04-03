@@ -1,1 +1,11 @@
 /* more css */
+
+.fa-house {
+  font-size: 4rem;
+  color: red;
+}
+
+.special {
+  font-size: 6rem;
+  color: blueviolet;
+}
