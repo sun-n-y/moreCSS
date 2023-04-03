@@ -1,1 +1,20 @@
 /* more css */
+
+h1 {
+  text-shadow: -6px 6px 6px rgba(21, 60, 206, 0.66);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f15025;
+  margin: 20px;
+  box-shadow: 5px 5px 5px blue;
+  transition: all 2s;
+}
+
+.box:hover {
+  -webkit-box-shadow: 95px -103px 37px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 95px -103px 37px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 95px -103px 37px -26px rgba(0, 0, 0, 0.75);
+}
